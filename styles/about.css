@@ -1,0 +1,47 @@
+.about{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #fff;
+    position:relative;
+    top:150px;
+    width:960px;
+    height: 550px;
+    margin: 0 auto;
+    border: solid 2px #ccc;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size:25px;
+    top:0px;
+    left:0px;
+    margin: 30px 50px 15px 50px;
+}
+
+.SubHeader{
+    border-bottom: solid 2px #ccc;
+    margin: 0px 30px 10px 30px;
+    clear: both;
+}
+
+.content{
+    margin: 20px 40px 20px 70px;
+}
+
+
+#Headshot{
+    width:205.5px;
+    height:366.5px;
+    border: solid 2px #ccc;
+    float:left;
+    margin-right: 40px;
+}
+
+.aboutText{
+    font-size:14px;
+    display:inline;
+    margin-left: 0px;
+}
+
+
+
