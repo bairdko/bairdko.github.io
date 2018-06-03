@@ -1,0 +1,55 @@
+.about{
+    height:950px;
+}
+
+.row{
+    text-align:center;
+    margin: 0px 100px 20px 100px;
+    clear: both;
+}
+
+.portfolioImages{
+    width: 250px;
+    height: 250px;
+    float:left;
+    margin: 0px 25px 25px 25px;
+    display:block;
+}
+
+.overlayText {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.left{
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    background-color:  #4aaaa5;
+    width:210px;
+    height:20px;
+    padding:20px
+}
+
+.right{
+    position: absolute;
+    top: 175px;
+    left: 450px;
+    transform: translate(-50%, -50%);
+    background-color:  #4aaaa5;
+    width:210px;
+    height:20px;
+    padding:20px
+}
+
+a.bannerText{
+    text-decoration: none;
+    color: #fff;
+}
+
+.left:hover,.right:hover{
+    background-color:rgba(74, 170, 165, 0.8);
+    font-style:italic;
+}
