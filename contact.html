@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta charset="UTF-8">
 
-        <title>Kat Baird: Hello, World!</title>
+        <title>Kat Baird</title>
         <!--FAVICON-->
         <!--DO NOT FORGET TO UPDATE-->
         <!--link rel="icon" type="image/png" href="./GuitarIcon.jpg"-->
@@ -13,6 +13,7 @@
         <link rel="stylesheet" type = "text/css" href="./styles/normalize.css">
         <link rel="stylesheet" type = "text/css" href="./styles/style.css">
         <link rel="stylesheet" type = "text/css" href="./styles/about.css">
+        <link rel="stylesheet" type = "text/css" href="./styles/contact.css">
 </head>
 
 <body>
@@ -23,7 +24,34 @@
 </body>
 
 <div class ="about">
-        <div class = "SubHeader"><h2>WORK IN PROGRESS</h2></div>
+        <div class = "SubHeader"><h2>Contact</h2></div>
+</div>
+
+<!-- No idea how to actually make this send an email. LOOKUP LATER-->
+<div class = "emailWrapper">
+        <form>
+                <label id = "nameLabel" for="Name">Name</label>
+                <input type="text" id="enterName" name="name" placeholder="Your name">
+
+                <label id = "emailLabel" for="Email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email Address">
+                
+                <!--EDIT THE LABEL WHEN YOU ACTUALLY MAKE THIS SEND EMAILS.-->
+                <label id = "messageLabel" for="Message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter message. [Currently not functioning.]"></textarea>
+
+                <input id = "submitButton" type="submit" value="Submit">
+
+        </form>
+
+        <div id = "links">
+                <h3>Find Me At:</h3>
+                <img src = "images/linkedin.png" alt = "LinkedIn" class = "smallIcon" id = "LIicon">
+                <a class = "outsideLink" id = "LIlink" href="https://www.linkedin.com/in/katherine-baird-90059113b/" target = "_blank">LinkedIn</a>
+
+                <img src = "images/github.png" alt = "GitHub" class = "smallIcon" id = "GHicon">
+                <a class = "outsideLink" id = "GHlink" href="https://github.com/bairdko" target = "_blank">GitHub</a>
+        </div>
 </div>
     
 <footer></footer>

@@ -1,0 +1,123 @@
+.emailWrapper{
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+
+form{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+
+label{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#666;
+    size:20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+input,textarea{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#nameLabel{
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+
+#enterName{
+    position:absolute;
+    top:80px;
+    left:100px;
+    width:500px;
+}
+
+#emailLabel{
+    position:absolute;
+    top:130px;
+    left:100px;
+}
+
+#email{
+    position:absolute;
+    top:160px;
+    left:100px;
+    width:500px;
+}
+
+#messageLabel{
+    position:absolute;
+    top:210px;
+    left:100px;
+}
+
+#message{
+    position:absolute;
+    top:240px;
+    left: 100px;
+    width:500px;
+    height:200px;
+}
+
+#submitButton{
+    position: absolute;
+    top:460px;
+    left:100px;
+}
+
+
+h3{
+    position:absolute;
+    top: 100px;
+    left:700px;
+    width:150px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+    size:18px;
+    font-weight: bold;
+    font-style:italic;
+
+}
+
+.smallIcon{
+    
+    width:20px;
+    height:20px;
+}
+
+a.outsideLink{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:black;
+    font-size: 12px;
+}
+
+a.outsideLink:hover{
+    color:#4aaaa5;
+}
+
+#LIicon{
+    position:absolute;
+    top:150px;
+    left:710px;
+}
+
+#LIlink{
+    position:absolute;
+    top:152px;
+    left:740px;
+}
+
+#GHicon{
+    position:absolute;
+    top:182px;
+    left:710px;
+}
+
+#GHlink{
+    position:absolute;
+    top:184px;
+    left:740px;
+}
