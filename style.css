@@ -1,0 +1,95 @@
+body{
+    background-image: url("./images/escheresque.png");
+    background-repeat: repeat;
+    background-color:#eee;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;  
+}
+
+.navbar{
+    padding: 0;
+    min-width:15%;
+    border-bottom: solid 2px #aaa;
+}
+
+.navbar-brand{
+    background-color:#4aaaa5;
+    margin-left:15%;
+    padding-top:10px;
+    height:60px;
+    width:250px;
+    text-align: center;
+}
+
+a.nav-link{
+    color:#666;
+}
+
+a.nav-link:hover{
+    color: #000;
+}
+
+#main{
+    margin-top:7%;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size:25px;
+    top:0px;
+    left:0px;
+    margin: 30px 50px 15px 50px;
+}
+
+.SubHeader{
+    border-bottom: solid 2px #ccc;
+    margin: 0px 30px 10px 30px;
+    clear: both;
+}
+
+#Headshot{
+    border: solid 2px #ccc;
+    margin-left:20%;
+    margin-bottom: 5%;
+}
+
+#text{
+    margin-left:5%;
+}
+
+form{
+    padding: 0 10%;
+}
+
+button{
+    margin-bottom:5%;
+}
+
+.portfolioImages{
+  margin:6% 0;
+}
+
+.overlayText{
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+a.bannerText{
+    color: #fff;
+}
+
+a.bannerText:hover{
+    color:#ddd;
+    font-style:italic;
+    text-transform: none;
+}
+
+
