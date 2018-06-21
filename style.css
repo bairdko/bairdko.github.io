@@ -92,4 +92,10 @@ a.bannerText:hover{
     text-transform: none;
 }
 
-
+#hangman{
+    color: #333;
+    font-weight:bold;
+    background-color:rgba(8,175,167,.6);
+    padding: .3rem;
+    
+}

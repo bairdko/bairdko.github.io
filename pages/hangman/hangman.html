@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+  <head>
+    <meta charset = "UTF-8">
+    <title>Hangman</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Barrio|Fjalla+One" rel="stylesheet">
+	
+    <!-- custom css-->
+    <link rel ="stylesheet" href = "./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <nav class = "navbar bg-white">
+      <div class = "nav-brand float-left">HANGMAN: Texas Craft Breweries Edition 
+	  <!-- need to find a better picture img src = "./assets/images/beer_clipart.jpg" id = "beerClipart"/--></div>
+	  
+    </nav>
+
+    <!--div class = "container"-->
+      <div class = "row dark bg-dark" id = "clueHolder">
+        <div class = "col-12">
+        <p class = "text-center text-light" id = "clueText">[INSERT CLUE HERE]</p>
+        
+        <!--Close columns-->
+        </div>        
+      <!--Close first row-->
+      </div>
+    
+  
+      <div class = "row">
+        <div class = "col-12 bg-dark"> <!--gotta close this space here! DON'T FORGET-->
+          <div class = "jumbotron">
+            <h1 class = "text-center" id = "hangmanText">[INSERT HANGMAN GAME]</h1>
+          <!--Close Jumbotron-->
+          </div>
+        <!--close column-->
+        </div>
+      <!--Close Second Row-->
+      </div>
+
+      <div class = "row bg-dark">
+	  
+		<div class = "col-1"></div>
+        <div class = "col-4 bg-white rounded stats-container">
+          <p class = "text-center font-weight-bold rounded stats-box">Letters Already Guessed:
+            <br/>
+            <span class = "font-weight-normal" id = "guessText"></span> 
+          </p>
+        
+        <!--Close column 1-->
+        </div>
+		<div class = "col-2"></div>
+        <div class = "col-4 bg-white rounded stats-container">
+          <p class = "text-center font-weight-bold stats-box">Number of guesses remaining:
+            <br/>
+            <span class = "font-weight-normal" id = "guessesLeft">15</span>
+          </p>
+		  
+
+        <!--Close column 2-->
+        </div>
+		<div class = "col-1"></div>
+
+      <!--Close Third Row-->
+      </div>
+	  
+	  <div class = "row bg-dark">
+	  <img class = "img-fluid mx-auto" src = "./assets/images/beer2.jpg"/>
+	  </div>
+
+  <!--Close entire container-->
+  <!--/div-->
+
+
+    <script src = "./assets/javascript/game.js"></script>
+  </body>
+</html>

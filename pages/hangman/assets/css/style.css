@@ -1,0 +1,50 @@
+body{
+  background-color:#ddd;
+}
+
+.row, .col-12{
+	margin: 0;
+}
+
+.nav-brand{
+	padding-left: 3rem;
+	font-family: Barrio, impact, sans-serif;
+	font-size: 2.5em;
+}
+
+#beerClipart{
+	padding-left: 1rem;
+	height = 300px;
+}
+
+#clueHolder{
+  height: 30%;
+  width: 100%;
+  margin: 0;
+  padding-top:1rem;
+}
+
+#clueText{
+	font-family: "Barlow Condensed", Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding-bottom:1rem;
+}
+
+
+h1{
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: "Fjalla One", Impact,sans-serif;
+}
+
+.stats-container{
+  margin-bottom:1rem;
+}
+
+.stats-box{
+  padding-top:1rem;
+  font-family: "Barlow Condensed", Helvetica, sans-serif;
+  font-size: 1em;
+}
