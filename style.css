@@ -73,6 +73,7 @@ button{
 
 .portfolioImages{
   margin:6% 0;
+  border: solid .5rem #333;
 }
 
 .overlayText{
@@ -92,7 +93,8 @@ a.bannerText:hover{
     text-transform: none;
 }
 
-#hangman{
+
+#hangman, #crystals{
     color: #333;
     font-weight:bold;
     background-color:rgba(8,175,167,.6);
