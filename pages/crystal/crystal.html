@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+  <head>
+    <meta charset = "UTF-8">
+    <title>Crystal Collector</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	  <!-- fonts can go here -->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Audiowide" rel="stylesheet">
+	
+    <!-- custom css-->
+    <link rel ="stylesheet" href = "./assets/styles/style.css">
+
+  </head>
+
+  <body>
+    <div class = "container bg-transparent">
+
+      <!--header of the game-->
+      <div class = "row bg-secondary border-bottom border-success text-success justify-content-center">
+        <h1>CRYSTAL COLLECTOR</h1>
+
+      <!--end header row-->
+      </div>
+
+       <!--filler row-->
+       <div class = "row"></br></div>
+
+      <div class = "row bg-transparent">
+        <div class = "col-md-6 bg-secondary text-white" id = "instructions">
+          <!--- this is where i'm going to put instructions-->
+          <p>Collect the crystals!</p>
+          <p>Each crystal has a randomly assigned value. Clicking the crystals to add up their value.
+            If you hit the target number, you win. Make sure not to go over the target!
+          </p>
+
+        <!--left side container-->
+        </div>
+
+        <div class="col-md-6 bg-transparent">
+          <!-- this side will have the game-->
+          <div class = "container">
+            <div class = "row">
+              <div class = "col-md-8 bg-success border border-secondary text-white text-center" id = "targetNum">
+                number goes here
+
+              <!--end number div-->
+              </div>
+              <!--filler-->
+              <div class = "col-md-1"></div>
+
+              <div class = "col-md-3 bg-success border border-secondary text-white">
+                Wins: <span id = "wins">0</span>
+                </br>
+                Losses: <span id = "losses">0</span>
+
+              <!--end win loss div-->
+              </div>
+            <!--end first sub row-->
+            </div>
+
+            <!--filler row-->
+            <div class = "row bg-transparent"><br/></div>
+
+            <div class ="row">
+
+            <!-- replace these images-->
+              <div class = "col-md-3">
+                <img src = "assets/images/sapphire2.png" class = "img-fluid crystals" id ="sapphire" alt ="sapphire">
+              </div>
+              <div class = "col-md-3">
+                <img src = "assets/images/ruby2.jpg" class = "img-fluid crystals" id ="ruby" alt ="ruby">
+              </div>
+              <div class = "col-md-3">
+                <img src = "assets/images/emerald2.png" class = "img-fluid crystals" id ="emerald" alt ="emerald">
+              </div>
+              <div class = "col-md-3">
+                <img src = "assets/images/amethyst2.png" class = "img-fluid crystals" id ="amethyst" alt ="amethyst">
+              </div>
+              
+
+            <!--end button row-->
+            </div>
+
+            <!--filler row-->
+            <div class = "row bg-transparent"><br/></div>
+
+            <!--make a score box-->
+            <div class = "row">
+              <div class = "col-md-12 bg-success border border-secondary text-white text-center" id="scoreOuterBox">
+                Your total score is:&nbsp;&nbsp;&nbsp;<span id = "scoreBox"></span>
+              </div>
+            </div>
+
+          <!--end sub grid container-->
+          </div>
+        
+        <!--right side container-->
+        </div>
+      <!--end second row-->
+      </div>
+	  
+	  <!--filler row-->
+	  <div class = "row bg-transparent"></br></div>
+
+	  <!--filer row -->
+	  <div class = "row bg-transparent border border-success text-success justify-content-center" id = "winnerBar">
+		<div class = "col-md-6"><h1>[Winner Status]</h1></col>
+	  </div>
+	  
+    <!--end container-->
+    </div>
+
+    <!--jQuery library-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script> 
+    <script src = "./assets/script/game.js"></script>
+  </body>
+
+</html>

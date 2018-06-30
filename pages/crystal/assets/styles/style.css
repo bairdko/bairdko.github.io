@@ -1,0 +1,32 @@
+body{
+    background-image:url(../images/pow-star.png);
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: "Audiowide", Impact, sans-serif;
+}
+
+.container{
+    font-family: "Abel", Helvetica, sans-serif;
+}
+
+.crystals{
+    width:100px;
+}
+
+#targetNum{
+    font-size:30px;
+}
+
+#scoreOuterBox{
+    font-size:20px;
+}
+
+#instructions{
+    padding-top:1.5rem;
+}
+
+#winnerBar{
+	display:none;
+}
