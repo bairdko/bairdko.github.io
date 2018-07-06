@@ -94,7 +94,7 @@ a.bannerText:hover{
 }
 
 
-#hangman, #crystals{
+#hangman, #crystals, #trivia{
     color: #333;
     font-weight:bold;
     background-color:rgba(8,175,167,.6);
