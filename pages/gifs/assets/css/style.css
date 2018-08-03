@@ -1,0 +1,21 @@
+body{
+  background-color: #DFF0FC;
+}
+
+button{
+  margin: 5px;
+}
+
+.image-holder{
+  display:inline-block;
+}
+
+.gifs{
+  display:inline;
+  margin:5px;
+  clear:both;
+}
+
+p{
+  margin-left:15%;
+}

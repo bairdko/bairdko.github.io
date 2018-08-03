@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+  <head>
+    <meta charset = "UTF-8">
+    <title>GIFs</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	  <!-- fonts can go here -->
+	
+    <!-- custom css-->
+    <link rel ="stylesheet" href = "./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <div class = "container">
+
+      <div class = "row">
+        </br> 
+        <!--filler row-->
+      </div>
+
+      <div class = "row gifButtons">
+
+      <!--End Row-->  
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-9 gifDisplay">
+
+        <!--end gif display col-->
+        </div>
+
+        <div class = "col-md-3 searchArea">
+
+          <form id="gifForm">
+              <label for="gifInput">GIPHY Search</label>
+              <input type="text" id="gifInput"><br>
+        
+              <!-- Button triggers new movie to be added -->
+              <input id="addGif" type="submit" value="Search for a gif">
+            </form>
+
+        <!--end search button-->
+        </div>
+      <!--end second row-->
+      </div>
+    <!--End Container-->
+    </div>
+
+    <div class = "footer">
+      <!--Need to add a powered by GIFPHY thingy here-->
+    </div>
+
+
+    <!--jQuery library-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src = "./assets/js/gifs.js"></script>
+  </body>
+
+</html>

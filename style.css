@@ -98,7 +98,7 @@ a.bannerText:hover{
 }
 
 
-#hangman, #crystals, #trivia{
+#hangman, #crystals, #trivia, #gifs, #trains, #foodify{
     color: #333;
     font-weight:bold;
     background-color:rgba(8,175,167,.6);
