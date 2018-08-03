@@ -87,6 +87,10 @@ a.bannerText{
     color: #fff;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 a.bannerText:hover{
     color:#ddd;
     font-style:italic;

@@ -1,0 +1,39 @@
+html{
+    display:relative;
+}
+
+body{
+    background-image: url("./images/escheresque.png");
+    background-repeat: repeat;
+    background-color:#eee;
+}
+
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#nameDisplay{
+    padding-top:20%;
+}
+
+h1{
+   font-family: "Rock Salt";
+   font-size: 3em;
+}
+
+h3{
+  font-family: "Economica";
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
