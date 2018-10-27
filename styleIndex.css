@@ -6,25 +6,48 @@ body{
     background-image: url("./images/escheresque.png");
     background-repeat: repeat;
     background-color:#eee;
+	color: #343a40;
 }
 
-.header{
-    display: flex;
-    justify-content:center;
-    align-items: center;
+
+.filled{
+	background-color: rgba(255,255,255,.6);
+
 }
 
-#nameDisplay{
-    padding-top:20%;
+#top{
+    padding-top:1rem;
 }
 
-h1{
-   font-family: "Rock Salt";
-   font-size: 3em;
+.icons {
+	width: 50px;
 }
 
-h5{
-  font-family: "Economica";
+h2{
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.card {
+  position:relative;
+  height: 7rem;
+  width: 17rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255,255,255,.8);
+
+}
+
+.btn-left{
+  position:absolute;
+  bottom:.5rem;
+  left:.5rem;
+}
+
+.btn-right{
+  position:absolute;
+  bottom:.5rem;
+  right:.5rem;
 }
 
 a{
@@ -32,8 +55,18 @@ a{
   text-decoration: none;
 }
 
+a.repoLink{
+  color: #343a40;
+  text-decoration: none;
+}
+
+a.viewLink{
+  color: #28a745;
+  text-decoration: none;
+}
+
 a:hover{
-  color: black;
+  color: white;
   text-decoration: none;
   font-style: italic;
 }
