@@ -5,9 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    .qrcode-text-btn {
+      display: inline-block;
+      height: 1em;
+      width: 1em;
+      background: url(qr_icon.svg) 50% 50% no-repeat;
+      cursor: pointer;
+    }
+    
+    .qrcode-text-btn > input[type=file] {
+      position: absolute;
+      overflow: hidden;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+  </style>
 </head>
 <body>
   <h1>This is a test</h1>
-  <input type="file" accept="image/*" capture="camera" />
+  <input type=text class=qrcode-text><label class=qrcode-text-btn>
+   <input type=file
+         accept="image/*"
+         capture=environment
+         tabindex=-1>
+
+</label>
 </body>
 </html>
